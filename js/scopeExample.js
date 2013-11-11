@@ -1,5 +1,9 @@
-var inBlock = 1
-{
-    var inBlock = 2;
+function f() {
+    var a = 1
+    {
+        var a = 2;
+    }
+    console.log(a)
 }
-console.log(inBlock)
+
+f()
